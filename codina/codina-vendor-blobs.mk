@@ -14,11 +14,6 @@
 
 LOCAL_PATH := $(LOCAL_PATH)
 
-# Prebuilt libraries that are needed to build open-source libraries
-PRODUCT_COPY_FILES := \
-    $(LOCAL_PATH)/system/lib/libril.so:obj/lib/libril.so \
-    $(LOCAL_PATH)/system/lib/libsecril-client.so:obj/lib/libsecril-client.so
-
 # Camera
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
@@ -158,7 +153,6 @@ PRODUCT_COPY_FILES += \
 # OMX
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libnmftimer.so:system/lib/libnmftimer.so \
-    $(LOCAL_PATH)/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     $(LOCAL_PATH)/system/lib/ppp_sterc.so:system/lib/ppp_sterc.so \
     $(LOCAL_PATH)/system/lib/libste_ens_image_tuningdatabase.so:system/lib/libste_ens_image_tuningdatabase.so \
     $(LOCAL_PATH)/system/lib/libste_ens_video_common.so:system/lib/libste_ens_video_common.so \
