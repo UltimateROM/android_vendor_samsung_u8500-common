@@ -130,7 +130,6 @@ PRODUCT_COPY_FILES += \
 
 # System STE Libs
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/lib/libatparser.so:system/lib/libatparser.so \
     $(LOCAL_PATH)/system/lib/libbassapp.so:system/lib/libbassapp.so \
     $(LOCAL_PATH)/system/lib/libcn.so:system/lib/libcn.so \
     $(LOCAL_PATH)/system/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
