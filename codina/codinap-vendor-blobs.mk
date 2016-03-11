@@ -78,10 +78,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
 # Display
-#PRODUCT_COPY_FILES += \
-#    $(LOCAL_PATH)/system/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so \
-#    $(LOCAL_PATH)/system/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so \
-#    $(LOCAL_PATH)/system/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/system/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so \
+    $(LOCAL_PATH)/system/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so \
+    $(LOCAL_PATH)/system/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so
 
 # GPS
 PRODUCT_COPY_FILES += \
@@ -156,6 +156,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
     $(LOCAL_PATH)/system/lib/libsms_server.so:system/lib/libsms_server.so \
     $(LOCAL_PATH)/system/lib/libstecom.so:system/lib/libstecom.so \
+<<<<<<< HEAD
+=======
+    $(LOCAL_PATH)/system/lib/libstelpcutils.so:system/lib/libstelpcutils.so \
+>>>>>>> parent of 56149e5... Build copybit and stelpcutils from source
     $(LOCAL_PATH)/system/lib/libsterc.so:system/lib/libsterc.so \
     $(LOCAL_PATH)/system/lib/libtee.so:system/lib/libtee.so \
     $(LOCAL_PATH)/system/lib/libtrace.so:system/lib/libtrace.so \
